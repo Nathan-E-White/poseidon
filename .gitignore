@@ -1,1 +1,24 @@
-/node_modules/*
+# =========================================================================== #
+#                        FORBID ALL UNSPECIFIED FILES                         #
+# =========================================================================== #
+/*
+
+# =========================================================================== #
+#                                ALLOWED FILES                                #
+# =========================================================================== #
+
+# ----- PACKAGE FILES ----- #
+!/package.json
+!/yarn.lock
+
+# ----- IGNORE FILES ----- #
+!/.dockerignore
+!/.gitignore
+
+# ----- BUILD CONFIGURATIONS ----- #
+!/cloudbuild.yaml
+!/Dockerfile
+
+# ----- SOURCE DIRECTORIES ----- #
+# ----- SCRIPT DIRECTORIES ----- #
+!/scripts/*
