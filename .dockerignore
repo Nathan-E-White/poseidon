@@ -8,3 +8,16 @@
 # =========================================================================== #
 !/package.json
 !/yarn.lock
+!/.dockerignore
+!/cloudbuild.yaml
+!/Dockerfile
+!/glide.lock
+!/glide.yaml
+!/Jenkinsfile
+!/tests/*
+!/spinnaker/*
+!/scripts/*
+!/pkg/*
+!/k8s/*
+!/docs/*
+!/cmd/*

@@ -18,7 +18,17 @@
 # ----- BUILD CONFIGURATIONS ----- #
 !/cloudbuild.yaml
 !/Dockerfile
+!glide.lock
+!glide.yaml
+Jenkinsfile
+yarn.lock
 
 # ----- SOURCE DIRECTORIES ----- #
 # ----- SCRIPT DIRECTORIES ----- #
 !/scripts/*
+!/cmd/*
+!/docs/*
+!/k8s/*
+!/pkg/*
+!/spinnaker/*
+!/tests/*
